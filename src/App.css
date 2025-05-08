@@ -1,0 +1,9 @@
+*{
+    font-style: italic;
+}
+body{
+    /* background-color: #424951 ; */
+    background-image: url("../src/home/img/mobile-background.jpg");
+    background-size: cover;
+    width: 100%;
+}

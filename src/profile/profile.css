@@ -1,0 +1,106 @@
+#profile-page{
+    position: relative;
+    width: 100%;
+    padding-top: 100px;
+    overflow: hidden;
+    background: rgba( 255, 255, 255, 0 ) !important;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.profile{
+    margin-top: 200px;
+    width: 100%;
+    height: 300px;
+    color: white;
+    border-bottom:2px solid white ;
+}
+.profile > h1{
+    position: relative;
+    top: -180px;
+    left: 45%;
+}
+.profile > img{
+    position: relative;
+    border: 1px solid white;
+    border-radius: 50%;
+    left: 10%;
+    top: -10%;
+    width: 200px;
+    height: 200px;
+}
+.profile h4{
+    position: relative;
+    left: 30%;
+    top: -90%;
+    font-size: 25px;
+    padding: 20px;
+}
+.profile > button{
+    position: relative;
+    left: 85%;
+    top: -90%;
+    color: white;
+    padding: 10px;
+    border-radius:20px ;
+    background-color: black;
+    border: 1px solid black;
+}
+.profile > button >a{
+    color: white;
+    text-decoration: none;
+}
+.history{
+    width: 100%;
+    height: 500px;
+}
+.settings{
+    width: 100%;
+    height: 500px;
+}
+.feedback{
+    width: 100%;
+    height: 500px;
+}
+@media screen and (max-width: 768px){
+    .profile{
+        height: 200px;
+    }
+    .profile > img{
+        top: -60px;
+        width: 150px;
+        height: 150px;
+    }
+    .profile h4{
+        left: 240px;
+        top: -190px;
+        padding: 5px;
+        font-size: 15px;
+    }
+    .profile > button{
+        position: relative;
+        left: 75%;
+        top: -80%;
+    }
+    @media (max-width: 480px) {
+        .profile{
+            height: 400px;
+        }
+        .profile > img{
+            border-radius: 0px;
+            top: -100px;
+            left: 35%;
+        }
+        .profile h4{
+            left: 50px;
+            top: -60px;
+        }
+        .profile > button{
+            position: relative;
+            left: 65%;
+            top: -10%;
+        }
+    }
+}

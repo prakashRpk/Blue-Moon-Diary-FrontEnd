@@ -1,0 +1,25 @@
+.custom-navbar {
+    background-color: #343a40;
+    box-shadow: 0px 0px 28px 6px rgba(0,0,0,0.75);
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 10000000;
+  }
+  
+  .custom-brand {
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .custom-navlink {
+    background-color: #343a40;
+    margin: 0px 20px;
+    color: #ddd !important;
+    transition: color 0.3s;
+  }  
+  .custom-navlink:hover {
+    color: #fff !important;
+  }
+  
+  
