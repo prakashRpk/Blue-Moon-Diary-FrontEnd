@@ -55,14 +55,55 @@
 .history{
     width: 100%;
     height: 500px;
+    color: white;
+    border-bottom:2px solid white ;
+    h2{
+        color: white;
+        margin-top: 50px;
+    }
 }
 .settings{
     width: 100%;
     height: 500px;
+    color: white;
+    border-bottom:2px solid white ;
+    h2{
+        color: white;
+        margin-top: 50px;
+    }
+    form{
+      display: grid;
+        input{
+          width: 100%; 
+          border-radius: 5px; 
+        }
+        label{
+            margin: 10px;
+        }
+        button{
+            margin-top: 30px;
+            width: 30%;
+            margin-left: 35%;
+        }
+    }
 }
 .feedback{
     width: 100%;
     height: 500px;
+    color: white;
+    border-bottom:2px solid white ;
+    h2{
+        color: white;
+        margin-top: 50px;
+    }
+    form{
+        width: 90%;
+        margin-left: 5%;
+    }
+    textarea{
+        height: 100px;
+        color: white;
+    }
 }
 @media screen and (max-width: 768px){
     .profile{

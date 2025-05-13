@@ -12,6 +12,7 @@
     top: 90px;
     left: 130px;
 font-size: 250px;
+color: white;
 }
 #login .img{
     position: absolute;
@@ -24,8 +25,24 @@ color: white;
     position: absolute;
     top: 15%;
     left: 25%;
+    color: white;
     font-size: 500%;
     
+}
+#home section{
+       position: absolute;
+    width: 50%;
+    height: 200px;
+    top: 60%;
+    left: 5%;
+    color: white;
+    padding: 30px;
+    background: rgba( 255, 255, 255, 0 ) !important;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 .login-btn{
     position: absolute;
@@ -109,23 +126,29 @@ color: white;
 }
 @media screen and (max-width: 768px){
     #home{
-       background-image: url(./img/mobile-background.jpg);
+       background-image: url(./img/background.jpg);
         height: 1500px;
     }
     #home .img{
         color: white;
-        top: 90px;
+        top: 50px;
         left: 50px;
     font-size: 150px;
     }
+    #home section{
+       position: absolute;
+    width: 90%;
+    height: 250px;
+    top: 15%;
+}
     #login{
-        width: 100%;
-        top: 87%;
-        left: 0%;
+        width: 95%;
+        top: 70%;
+        left: 2.5%;
     }
     .title1{
         color: white;
-        top: 7%;
+        top: 4%;
         left: 35%;
         font-size: 300%;
         
@@ -142,6 +165,13 @@ color: white;
     .title1{
         font-size: 200%; 
     }
+    #home section{
+       position: absolute;
+       left: 5%;
+    width: 90%;
+    height: 300px;
+    top: 15%;
+}
     #login{
         top: 67%;
         height: 500px;

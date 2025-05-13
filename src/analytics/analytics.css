@@ -23,3 +23,52 @@
 #mood-analytics > h5{
     color: white;
 }
+#tag-analytics {
+    padding: 2rem;
+    max-width: 600px;
+    margin: 2rem auto;
+    background-color: #eef9f1;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.05);
+}
+
+.tag-item h5 {
+    margin: 0 0 0.5rem;
+    color: #444;
+}
+#analytics {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+#calendar-analytics {
+    max-width: 800px;
+    width: 100%;
+    padding: 2rem;
+    background: #f0f4f8;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#calendar-analytics h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+.color-empty {
+    fill: #ebedf0;
+}
+.color-github-1 {
+    fill: #c6e48b;
+}
+.color-github-2 {
+    fill: #7bc96f;
+}
+.color-github-3 {
+    fill: #239a3b;
+}
+.color-github-4 {
+    fill: #196127;
+}
