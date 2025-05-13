@@ -14,7 +14,7 @@ function Profile() {
 async function handleFeedbackSubmit(e) {
     e.preventDefault();
     try {
-        await axios.post('http://localhost:5000/CreateFeedback', {
+        await axios.post('https://blue-moon-diary-backend.onrender.com/CreateFeedback', {
             userId: currentuser._id,
             message: feedback
         });
