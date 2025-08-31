@@ -1,10 +1,19 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
+import { useNavigate } from 'react-router-dom';
 import Navbar from 'react-bootstrap/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './nav.css'
+import '../Styles/nav.css'
 
 function BasicExample() {
+
+      const navigate = useNavigate();
+
+    const handleLogout = () => {
+    localStorage.removeItem("token");
+    navigate("/");
+  };
+
   return (
 
     <Navbar expand="lg" className="custom-navbar" variant="dark">
@@ -29,8 +38,15 @@ function BasicExample() {
               <i className="fa-solid fa-user"></i>&nbsp;Profile
             </Nav.Link>
             <Nav.Link href="/analytics" className="custom-navlink">
-            <i class="fa-solid fa-chart-simple"></i>&nbsp;analytics
+            <i class="fa-solid fa-chart-simple"></i>&nbsp;Analytics
             </Nav.Link>
+            {/* <Nav.Link href="/Cuztomise" className="custom-navlink">
+            <i class="fa-solid fa-chart-simple"></i>&nbsp;Cuztomise
+            </Nav.Link> */}
+            <Nav.Link className="custom-navlink" onClick={handleLogout}>
+             <i className="fa-solid fa-right-from-bracket"></i>&nbsp;Logout 
+            </Nav.Link>
+            
           </Nav>
         </Navbar.Collapse>
       </Container>

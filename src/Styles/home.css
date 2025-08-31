@@ -1,7 +1,6 @@
 #home{
     position: relative;
-    background-image: url();
-   background-image: url(./img/background.jpg);
+   background-image: url(../Images/img/background.jpg);
    background-size: cover;
     width: 100%;
     height: 810px;
@@ -126,7 +125,7 @@ color: white;
 }
 @media screen and (max-width: 768px){
     #home{
-       background-image: url(./img/background.jpg);
+       background-image: url(../Images/img/background.jpg);
         height: 1500px;
     }
     #home .img{
